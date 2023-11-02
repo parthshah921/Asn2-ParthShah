@@ -1,0 +1,17 @@
+<h2>Car Sales Information</h2>
+{{#each info}}
+<div>
+    <p>InvoiceNo: ${{this.InvoiceNo}}</p>
+    <p>Manufacturer: ${{this.Manufacturer}}</p>
+    <p>Sales in thousands: ${{this.Sales_in_thousands}}</p>
+    <p>Year resale value: ${{this.__year_resale_value}}</p>
+    <p>Vehicle type: ${{this.Vehicle_type}}</p>
+    <p>Price in thousands: ${{this.Price_in_thousands}}</p>
+    <p>Engine_size: ${{this.Engine_size}}</p>
+    <p>Width: ${{this.Width}}</p>
+    <p>Horsepower: ${{this.Horsepower}}</p>
+    <p>Wheelbase: ${{this.Wheelbase}}</p>
+    <p>Model: ${{this.Model}}</p>
+    <p>Vehicle type: ${{this.Vehicle_type}}</p>
+</div>
+{{/each}}
