@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: darkcyan;
     color: white;
     padding: 10px;
     text-align: center;
@@ -79,7 +79,7 @@ tr.high-sales {
 }
 
 footer {
-    background-color: black;
+    background-color: darkcyan;
     color: white;
     text-align: center;
     padding: 10px;
